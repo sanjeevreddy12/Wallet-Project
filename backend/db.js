@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const dotenv = require('dotenv').config()
 
-mongoose.connect("your url").then(()=>{
+mongoose.connect("mongodb+srv://sanjeevreddy:sanju@cluster0.mumk7sl.mongodb.net/paytm").then(()=>{
     console.log('Db connected')
 })
 
